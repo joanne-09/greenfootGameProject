@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=Diary
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Diary\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Diary()
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Diary\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=h
+comment3.target=void\ showText(int)
+comment4.params=h
+comment4.target=void\ delText(int)
+comment5.params=
+comment5.target=void\ showInfo()
+comment6.params=
+comment6.target=void\ delInfo()
+comment7.params=
+comment7.target=void\ switchPage()
+comment8.params=
+comment8.target=void\ setText()
+comment9.params=x\ y
+comment9.target=void\ setLocation(int,\ int)
+comment9.text=\r\n\ overrides\ the\ 'setLocation(int,\ int)'\ method\ of\ the\ Actor\ class\ so\ the\ counter\ cannot\ be\ relocated\r\n\ (it\ removes\ the\ implementation\ provided\ by\ the\ Actor\ class)\r\n
+numComments=10

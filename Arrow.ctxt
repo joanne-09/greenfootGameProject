@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Arrow
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Arrow\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=d
+comment1.target=Arrow(int)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ Arrow\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=x\ y
+comment3.target=void\ setLocation(int,\ int)
+comment3.text=\r\n\ overrides\ the\ 'setLocation(int,\ int)'\ method\ of\ the\ Actor\ class\ so\ the\ counter\ cannot\ be\ relocated\r\n\ (it\ removes\ the\ implementation\ provided\ by\ the\ Actor\ class)\r\n
+numComments=4

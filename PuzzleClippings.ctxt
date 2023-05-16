@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=PuzzleClippings
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ PuzzleClippings\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=n\ x\ y
+comment1.target=PuzzleClippings(int,\ int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ PuzzleClippings\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment3.params=
+comment3.target=void\ change()
+comment4.params=
+comment4.target=void\ followMouse()
+comment5.params=t\ X\ Y
+comment5.target=boolean\ check(int,\ int,\ int)
+comment6.params=t\ X\ Y
+comment6.target=void\ intoPuzzle(int,\ int,\ int)
+numComments=7

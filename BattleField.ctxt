@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=BattleField
+comment0.text=529\ Joanne\u6709\u6539\u4E00\u9EDE(\u770B\u5B8C\u5C31\u53EF\u4EE5\u522A\u6389\u4E86)
+comment1.params=var1\ chat1
+comment1.target=BattleField(int[],\ boolean[])
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ BattleField.\r\n\ \r\n
+comment10.params=
+comment10.target=int\ backWhere()
+comment11.params=
+comment11.target=void\ youWin()
+comment12.params=
+comment12.target=int\ backOver()
+comment2.params=var1\ chat1\ check1
+comment2.target=BattleField(int[],\ boolean[],\ boolean[])
+comment3.params=
+comment3.target=void\ prepare()
+comment3.text=\r\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\r\n\ That\ is\:\ create\ the\ initial\ objects\ and\ add\ them\ to\ the\ world.\r\n
+comment4.params=
+comment4.target=void\ act()
+comment5.params=
+comment5.target=void\ hurtEnemy()
+comment6.params=
+comment6.target=void\ hurtRun()
+comment7.params=
+comment7.target=int\ KeyisDown()
+comment7.text=private\ void\ coolDown(){\r\n\ \ \ \ \ \ \ \ if(\!hurt)\ \ \ \ \ \ \ buffer--;\r\n\ \ \ \ \ \ \ \ if(buffer<\=0)\ \ \ hurt\ \=\ true;\r\n\ \ \ \ \ \ \ \ if(\!hurt2)\ \ \ \ \ \ buffer2--;\r\n\ \ \ \ \ \ \ \ if(buffer2<\=0)\ \ hurt2\ \=\ true;\r\n}
+comment8.params=
+comment8.target=int\ whichRun()
+comment9.params=
+comment9.target=boolean\ RunIsHere()
+numComments=13

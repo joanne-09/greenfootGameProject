@@ -1,0 +1,40 @@
+#BlueJ class context
+comment0.target=Run2
+comment0.text=528\ Joanne\ \u6709\u6539getColor()\u5594
+comment1.params=
+comment1.target=Run2()
+comment10.params=
+comment10.target=void\ getShields()
+comment10.text=public\ void\ getLives(){\r\n\ \ \ \ \ \ \ \ if(var[6]\ >\ 0){\r\n\ \ \ \ \ \ \ \ \ \ \ \ Frame1\ w1\ \=\ (Frame1)getWorld();\r\n\ \ \ \ \ \ \ \ \ \ \ \ w1.add_RonLife();\r\n\ \ \ \ \ \ \ \ \ \ \ \ var[6]\ --;\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(var[6]\ <\ 0)\ var[6]\ \=\ 0;\r\n\ \ \ \ \ \ \ \ }\r\n}
+comment11.params=
+comment11.target=void\ coolDown()
+comment11.text=public\ void\ getGuns(){\r\n\ \ \ \ \ \ \ \ if(Greenfoot.isKeyDown("1")\ &&\ takeItem\=\=0\ &&\ var[2]\ \!\=\ 0)\ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ takeItem\ \=\ 2;\r\n\ \ \ \ \ \ \ \ \ \ \ \ attackTimes\ \=\ 10;\r\n\ \ \ \ \ \ \ \ \ \ \ \ var[2]--;\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(var[2]\ \=\=\ 0){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Frame2\ f\ \=\ (Frame2)getWorld();\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //f.removeicon(2);\ \ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ if(takeItem\=\=2\ &&\ haschangegun\ \=\=\ false){\r\n\ \ \ \ \ \ \ \ \ \ \ \ Gif1\=new\ GifImage("left_gun(run_slow).gif");\r\n\ \ \ \ \ \ \ \ \ \ \ \ Gif2\=new\ GifImage("right_gun(run_slow).gif");\r\n\ \ \ \ \ \ \ \ \ \ \ \ Gif3\=new\ GifImage("back_gun(run_slow).gif");\r\n\ \ \ \ \ \ \ \ \ \ \ \ Gif4\=new\ GifImage("front_gun(run_slow).gif");\r\n\ \ \ \ \ \ \ \ \ \ \ \ setImage(Gif1.getCurrentImage());\r\n\ \ \ \ \ \ \ \ \ \ \ \ setImage(Gif2.getCurrentImage());\r\n\ \ \ \ \ \ \ \ \ \ \ \ setImage(Gif3.getCurrentImage());\r\n\ \ \ \ \ \ \ \ \ \ \ \ setImage(Gif4.getCurrentImage());\r\n\ \ \ \ \ \ \ \ \ \ \ \ haschangegun\ \=\ true;\r\n\ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ attackLimit();\r\n}
+comment12.params=
+comment12.target=void\ attackLimit()
+comment13.params=direction
+comment13.target=void\ shoot(int)
+comment14.params=
+comment14.target=void\ switchFrame()
+comment15.params=z
+comment15.target=boolean\ getColor(int)
+comment16.params=w
+comment16.target=void\ addedToWorld(greenfoot.World)
+comment2.params=clss
+comment2.target=boolean\ canSee(java.lang.Class)
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\r\n\ Act\ -\ do\ whatever\ the\ Player\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
+comment4.params=
+comment4.target=void\ operation()
+comment5.params=m
+comment5.target=void\ subope(int)
+comment6.params=
+comment6.target=void\ change()
+comment6.text=public\ static\ int\ Keydown(){\r\n\ \ \ \ \ \ \ \ return\ dir;\r\n}
+comment7.params=
+comment7.target=int\ getSomeone()
+comment8.params=
+comment8.target=int\ openOnNPCs()
+comment9.params=
+comment9.target=void\ returnnum()
+numComments=17
