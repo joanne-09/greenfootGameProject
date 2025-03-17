@@ -24,40 +24,38 @@ This is a Java-based puzzle-solving and adventurous game developed using the Gre
 
 ## Usage
 1. Open the project in Greenfoot
-2. Click the "Run" button to start the game
-3. Use the following controls:
-- Arrow keys: Move character
-- Space: Action/Jump
-- 'P': Pause game
+2. Click Space to launch the Menu
+3. Click on the **Red** dot on the Menu to start a level
+4. Use the following controls:
+   - Arrow keys: Move character
+   - 'F': Speed up the character
+   - 'D': Attack
+   - Space: Talk to NPCs
 
 ## Project Structure
 ```
 game-project/
 ├── images/            # Game graphics and sprites
+├── content/           # Riddles and necessary word content
 ├── sounds/            # Sound effects and music
 ├── project.greenfoot  # Greenfoot project configuration
 ├── README.md          # This file
 └── src/               # Source code
-    ├── actors/        # Game character classes
-    ├── utils/         # Utility classes
+    ├── actors/        # Game character and object classes
     └── worlds/        # Game level/environment classes
 ```
 
-## Development
-This project follows object-oriented programming principles with Greenfoot's actor-world model:
-- World classes define the game environment
-- Actor classes represent interactive game elements
-- Each class encapsulates specific behaviors and properties
+## Contribution  
+- Designed the map and obstacles for the first level  
+- Implemented player movement  
+- Created riddles and puzzles for the first level,
+- Implemented choice-making mechanism and keyboard input mechanism on riddles 
+- Developed the Diary feature and page-turning mechanism  
+- Designed the puzzle image, placement mechanism, and validation for incorrect placement  
+- Designed the NPC interaction mechanism, nearby NPC detection
 
-## Contributing
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-Distributed under the MIT License. See `LICENSE` for more information.
+## Other Related Documents
+- [Game Spec](https://docs.google.com/document/d/1zlH8fBf3eGcrzA20JJlknaLTsXHxs-dZ1WrSuksBZSQ/edit?usp=sharing)
 
 ## Acknowledgments
 - [Greenfoot](https://www.greenfoot.org/) for providing the game development framework
